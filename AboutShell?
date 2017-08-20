@@ -1,0 +1,6 @@
+cat ~/.gitconfig
+
+//In a dir, create a new file:
+echo something < filename
+git add filename
+echo ...
