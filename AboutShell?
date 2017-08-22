@@ -1,6 +1,7 @@
 cat ~/.gitconfig
 
-//In a dir, create a new file:
-echo something < filename
-git add filename
-echo ...
+touch filename //create a new file
+
+echo "something" << filename //add some content to specific file
+
+ctrl z //exit from a opened file
